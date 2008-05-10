@@ -2,6 +2,12 @@
 
 Various bits and helpers, that might prove useful or not.
 
+To make the test pages work, first run 
+
+rake dist
+
+in lib/prototype (you'll need Ruby installed for this!).
+
 == License
 
 The helpers are licensed under the terms of the MIT License, 
