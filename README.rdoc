@@ -1,0 +1,8 @@
+== Prototype helpers
+
+Various bits and helpers, that might prove useful or not.
+
+== License
+
+The helpers are licensed under the terms of the MIT License, 
+see the included MIT-LICENSE file.
