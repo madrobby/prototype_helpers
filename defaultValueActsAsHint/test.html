@@ -2,12 +2,12 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>blech</title>
+  <title>defaultValueActsAsHint functional test</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <script src="../lib/prototype/dist/prototype.js" type="text/javascript"></script>
   <script src="defaultvalueactsashint.js" type="text/javascript"></script>
   <style type="text/css" media="screen">
-    input.hint {
+    .hint {
       color: #aaa;
       font-style: italic;
     }
@@ -16,10 +16,13 @@
 <body>
   <input type="text" id="foo" name="foo" value="Enter something!"/>
   <input type="text" id="bar" name="bar" value="Or something else!"/>
+  <textarea id="baz" name="baz">Replace this text with something else</textarea>
+  
   
   <script type="text/javascript" charset="utf-8">
     $('foo').defaultValueActsAsHint();
     $('bar').defaultValueActsAsHint();
+    $('baz').defaultValueActsAsHint();
   </script>
 </body>
 </html>
